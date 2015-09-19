@@ -8,8 +8,8 @@
 # TODO consider serel
 # gem "serel", "1.2.0"
 
-::BLOG_HOST = Rails.env.development? ? "dev.boybutter.com" : "intercourse.boybutter.com"
-::BLOG_DISCOURSE = Rails.env.development? ? "l.discourse" : "intercourse.boybutter.com"
+::BLOG_HOST = Rails.env.development? ? "dev.industrygraph.com" : "industrygraph.com"
+::BLOG_DISCOURSE = Rails.env.development? ? "l.industrygraph" : "intercourse.industrygraph.com"
 
 module ::Blog
   class Engine < ::Rails::Engine
